@@ -30,7 +30,6 @@ spec:
     spec:
       containers:
         - name: locust-worker
-          #image: "<IMAGE>"
           image: us.gcr.io/andy-playground-264516/locust-image:latest
           env:
             - name: LOCUST_MODE
